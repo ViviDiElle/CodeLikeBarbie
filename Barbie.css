@@ -1,0 +1,137 @@
+body {
+  font-family: "Oooh Baby", cursive;
+  margin: 0;
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/799/original/baarbie_80s.png?1694527937);
+  background-repeat: repeat;
+  background-size: 300px;
+}
+h1,
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+
+h1 {
+  font-weight: 900px;
+  text-shadow: 2px 2px rgb(249, 160, 218);
+}
+
+h2 {
+  font-weight: 600;
+  text-shadow: 2px 2px rgb(216, 63, 163);
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 30px;
+  width: 350px;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-1 {
+  transition: all 150ms ease-in-out;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.img-1:hover {
+  filter: contrast(50%);
+  transform: scale(1.2);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.grid img {
+  transition: all 150ms ease-in-out;
+  margin-bottom: 20px;
+  float: left;
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.grid img:hover {
+  transform: scale(1.2);
+}
+.grid .img-1 {
+  grid-gap: 20px;
+}
+
+p {
+  margin-bottom: 35px;
+  text-align: justify;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 5px 30px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ff32d3;
+}
+
+button {
+  font-family: "Shadows Into Light", cursive;
+  display: block;
+  margin: 0 auto;
+  background-color: rgb(193, 49, 150);
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: purple;
+  transition: all 180ms ease-in-out;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px #cd9cf2;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: rgb(253, 123, 207);
+}
+
+.theme-btn {
+  background-color: rgb(145, 58, 225);
+  color: rgb(245, 245, 245);
+}
+
+.theme-btn:hover {
+  background-color: rgb(254, 31, 187);
+  color: black;
+}
+
+.ME {
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+.dark {
+  background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/096/990/original/1414740-beautiful-barbie-wallpapers-2880x1800-for-mobile.jpg?1694641238);
+  background-repeat: repeat;
+  font-family: "Oooh Baby", cursive;
+  color: darkblue;
+}
+
+.dark .container {
+  background: linear-gradient(-225deg, #fd3eaa 0%, #ff32d3 52%, #2b86c5 100%);
+}
+
+footer {
+  text-align: center;
+  margin: 35px 0;
+  font-weight: 600;
+  text-shadow: 1px 1px 1px #cd9cf2;
+}
